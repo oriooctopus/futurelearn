@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+svg {
+  /* position: absolute; */
+}
+
+svg:hover {
+  fill: yellow;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
