@@ -33,7 +33,7 @@ const editorOptions = {
 };
 
 const Editor = () => {
-  const [code, setCode] = useState('console.log(123)');
+  const [code, setCode] = useState('// comment here');
 
   return (
     <MonacoEditor
