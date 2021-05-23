@@ -1,6 +1,7 @@
 import React from "react";
 import data from "./data";
 import "./App.css";
+import Editor from './Editor';
 
 const Hexagon = ({ x, y }) => (
   <svg
@@ -23,6 +24,7 @@ function App() {
   console.log("data", data);
   return (
     <div className="App">
+      <Editor />wd
       {data[0].title}
       {data[0].lessons.map((lesson, index) => {
         // let x;
